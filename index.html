@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/stormning"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img-container">
+      <div class="text-box">
+        <img src="images/odin.png" alt="Odin Icon" />
+        <span class="title">Odin</span>
+      </div>
+    </div>
+    <div class="form-container">
+      <div class="header-box">
+        <p class="header-text">
+          This is not a real online service! You know you need something like this
+          in your life to help you realise your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p class="header-under">You <em>know</em> you want to!</p>
+      </div>
+      <div class="form-box">
+        <form action="#" class="form">
+          <p class="input-header">Let's do this!</p>
+          <div class="input-box">
+          <div class="input">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" class="first-name" required/>
+          </div>
+          <div class="input">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" class="last-name" required/>
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="email" required/>
+          </div>
+          <div class="input">
+            <label for="phone-number">Phone Number</label>
+            <input type="number" id="phone-number" class="phone-number" required/>
+          </div>
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="password" required/>
+            <span class="password-error hidden">* Passwords do not match</span>
+          </div>
+          <div class="input">
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" id="confirm-password" class="confirm-password" required/>
+          </div>
+          </div>
+        </div>
+        <div class="footer-box">
+
+          <button type="submit" class="btn">Create Account</button>
+        </form>
+        <p>Already have an account?  <a href="./">Log in</a></p>
+      </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
